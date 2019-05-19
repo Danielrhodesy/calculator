@@ -1,0 +1,103 @@
+body{
+    margin: 0px;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+.container {
+    width: 100%;
+    height: 800px;
+    background-color: white;
+}
+
+.calculator {
+    background-color: #3E92CC;
+    height: 540px;
+    width: 320px;
+    margin: 40px auto;
+    position: relative;
+    top: 10%;
+    border-radius: 10px;
+    box-shadow: 0 5px 8px;
+}
+
+.out-container{
+    height: 120px;
+    width: 100%;
+    background-color: #3E92CC;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+}
+
+#history {
+    height: 40px;
+    width: 100%;
+    /* background-color: antiquewhite; */
+    font-size: 20px;
+    text-align: right;
+    color: white;
+    
+}
+
+#history p {
+    position: relative;
+    top: 25px;
+    margin-right: 40px;
+}
+
+#output {
+    height: 60px;
+    width: 100%;
+    background-color: #3E92CC;
+    
+    left: 2.5%;
+    /* position: relative; */
+    border-radius: 10px;
+    text-align: right;
+    font-size: 50px;
+}
+
+#output p {
+    margin-right: 30px;
+}
+
+#outputValue, #historyValue {
+    margin: 10px 0;
+}
+
+
+#keyboard {
+    height: 100%;
+    /* background-color: brown; */
+}
+
+.operator, .number, .empty {
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.operator:active, .number:active {
+    font-size: 12px;
+}
+
+.operator:focus, .number:focus {
+    outline: 0;
+}
+
+.empty {
+    /* background-color: brown; */
+    border: none;
+}
+
+.number, .operator {
+    border: none;
+    cursor: pointer; 
+}
+
+.operator {
+    background-color: #FF8552;
+}
